@@ -6,7 +6,7 @@ class Bookmark(models.Model):
     url = models.URLField('Site URL')
 
     def __str__(self):
-        return "이름: " +self.site_name + ", 주소 : "+self.url
+        return "이름: " + self.site_name + ", 주소 : "+self.url
 
     def get_absolute_url(self):
         return reverse('bookmark:detail', args=[str(self.id)])
