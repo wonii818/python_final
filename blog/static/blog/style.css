@@ -1,0 +1,178 @@
+h1 a{
+    color: #FCA205;
+    font-family:'PT Sans','Nanum Pen Script','Noto Sans Korean';
+}
+
+
+h1{
+color: white;
+}
+
+
+body{
+   background:url("background.jpg") no-repeat;
+   background-size: cover;
+}
+
+
+label{
+margin-top: 15px;
+color:white;
+font-family: 'Do Hyeon';
+}
+
+
+.btn{
+    width: 40px;
+    height: 34px;
+    background: #F5F5F5;
+    border-color: lightgray;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+
+ button{
+    width: 80px;
+    height: 34px;
+    background: #F5F5F5;
+    background-color:
+    border-color: lightgray;
+    border-style: solid;
+    border-radius:5px;
+    vertical-align: top;
+}
+
+.btn2{
+width:65px;
+background: #f5f5f5;
+border-color: lightgray;
+padding: 6px; 12px;
+font-weight: 400px;
+font-size: 14px;
+   border-style: solid;
+    border-radius: 5px;
+}
+
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.glyphicon-pencil:before {
+width:14px;
+height:14px;
+content: "\270f";
+}
+
+
+.glyphicon-plus:before {
+width:34.67px;
+height:34.67px;
+content: "\2b";
+}
+
+
+.page-header{
+padding: 20px 20px 20px 40px;
+border-bottom: solid 2px orange;
+
+}
+
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active{
+color: #FCA205;
+font-size: 36pt;
+font-weight: 800;
+text-decoration:none;
+}
+
+
+h1, h2, h3, h4{
+font-family: 'PT Sans','Noto Sans Korean';
+
+}
+
+
+.date{
+color: #f5f5f5;
+margin-top: 15px;
+}
+
+.date2{
+color: #f5f5f5;
+margin-top: 15px;
+font-family: 'Nanum Pen Script';
+font-size: 25px;
+padding-bottom:25px;
+}
+
+.save{
+float: right;
+}
+
+
+
+.post-form textarea, .post-form input{
+width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+width:34.67px;
+height:49.53px;
+color: #ffffff;
+float: right;
+font-size: 26pt;
+margin-right: 20px;
+}
+
+h3{
+margin-top: 20px;
+color:white;
+font-family: 'Do Hyeon';
+font-size: 20px;
+}
+
+.post{
+margin-bottom: 70px;
+
+}
+
+.post h1 a, .post h1 a:visited{
+color: #f5f5f5;
+font-family:'Do Hyeon';
+}
+
+.pdate{
+margin-top:15px;
+color: #f5f5f5;
+font-family:'Do Hyeon';
+}
+
+
+.dt{
+color: #f5f5f5;
+font-family: 'Nanum Pen Script';
+font-size: 30px;
+}
+
+.title{
+margin-bottom: 27px;
+font-family: 'Nanum Pen Script';
+font-size: 40px;
+}
+
+.detail{
+font-family: 'Nanum Pen Script';
+font-size: 20px;
+color: #f5f5f5;
+}

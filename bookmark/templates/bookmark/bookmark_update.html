@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} Bookmark Add {% endblock %}
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+<div class="box">
+<form action="" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Update" class="btn2 btn-info btn-sm">
+</form>
+    </div>
+{% endblock %}

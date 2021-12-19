@@ -1,0 +1,23 @@
+body{
+    background: white url("images/background.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+
+h3 {
+text-align:center;
+font-family:'Pacifico';
+margin: 300px;
+background: linear-gradient(to right top,white, #646464);
+font-size: 80px;
+color: transparent;
+ -webkit-background-clip: text;
+}
+
+
+title{
+    color: blue;
+    font-weight: bold;
+}
+
